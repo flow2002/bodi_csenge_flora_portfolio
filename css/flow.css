@@ -1,0 +1,122 @@
+body {
+	background-color: bisque;
+}
+
+h1 {
+	color: rosybrown;
+	font-family: garamond ;
+	text-align: center;
+	margin: 70px 0px 30px 0px;
+	font-size: 3rem;
+}
+
+.bemutatkozas {
+	color: rosybrown;
+	font-family: garamond;
+	border-style: none none none ridge;
+	border-color: cadetblue;
+	border-width: 12px;
+	width: 3000px;
+	padding: 0px 16px 0px 8px;
+	margin: 16px 0px 16px 16px;
+	font-size: 3.5vh;
+}
+
+span {
+	font-weight: bold;
+	color: cadetblue;
+	font-size: 120%;
+}
+
+b {
+	color: cadetblue;
+	font-size: 120%;
+}
+
+.kep1 img{
+	width: 250px;
+	margin: 16px;
+}
+
+.doboz{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.elerhetoseg{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	vertical-align: bottom;
+}
+
+#email{
+	border: solid cadetblue; 2px;
+	background-color: cadetblue;
+	border-radius: 0px 12px 0px 12px;
+	padding: 2px 16px 2px 16px;
+	margin: 12px;
+	width: 20%;
+	text-align: center;
+	color: rgb(115, 45, 70);
+	overflow-wrap: break-word;
+	font-family: garamond;
+	font-size: 110%;
+}
+
+#telefonszam{
+	border: solid cadetblue; 2px;
+	background-color: cadetblue;
+	border-radius: 0px 12px 0px 12px;
+	padding: 2px 16px 2px 16px;
+	margin: 12px;
+	width: 20%;
+	text-align: center;
+	color: rgb(115, 45, 70);
+	overflow-wrap: break-word;
+	font-family: garamond;
+	font-size: 110%;
+
+}
+
+#socialmedia{
+	border: solid cadetblue; 2px;
+	background-color: cadetblue;
+	border-radius: 0px 12px 0px 12px;
+	padding: 2px 16px 2px 16px;
+	margin: 12px;
+	width: 20%;
+	text-align: center;
+	color: rgb(115, 45, 70);
+	overflow-wrap: break-word;
+	vertical-align: middle;
+	font-family: garamond;
+	font-size: 110%;
+
+}
+
+#email:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#telefonszam:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#socialmedia:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+
+a{
+	color: cadetblue;
+}
+
+a:hover{
+	color: rgb(115, 45, 70);
+}

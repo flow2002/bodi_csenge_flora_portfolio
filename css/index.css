@@ -1,0 +1,40 @@
+body {
+  background-image: url("kepek/homehatter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+}
+
+.gomb {
+  display: inline-block;
+  border: solid rosybrown 5px;
+  background: rosybrown;
+  border-radius: 16px;
+  text-align: center;
+  padding: 16px;
+  margin: 16px;
+  width: 27%;
+  overflow-wrap: break-word;
+  vertical-align: middle;
+}
+
+.gomb a {
+  color: bisque;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: garamond;
+}
+
+.gomb:hover {
+  background-color: rgb(115, 45, 70);
+  border: solid rgb(115, 45, 70) 5px;
+  }
+

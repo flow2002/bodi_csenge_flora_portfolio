@@ -1,0 +1,95 @@
+body{
+	background-color: cadetblue;
+}
+
+h1{
+	display: flex;
+	width: 45%;
+	border: solid rosybrown 2px;
+	border-radius: 8px;
+	background-color: rosybrown;
+	font-family: garamond;
+	color: bisque;
+	text-align: center;
+	padding: 12px;
+	margin: auto;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	overflow-wrap: break-word;
+}
+
+.elokeszulet{
+	color: bisque;
+	font font-family: garamond;
+	width: 60%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-style: none ridge none ridge;
+	border-color: rosybrown;
+	border-width: 8px;
+	overflow-wrap: break-word;
+	padding: 0px 10px;
+}
+
+.nezetdoboz{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 30px 0px;
+}
+
+#nezet1 img{
+	width: 350px;
+}
+
+#nezet2 img{
+	width: 350px;
+}
+
+#nezet3 img{
+	width: 350px;
+}
+
+.folyamat {
+	color: bisque;
+	font font-family: garamond;
+	width: 60%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-style: none ridge none ridge;
+	border-color: rosybrown;
+	border-width: 8px;
+	overflow-wrap: break-word;
+	padding: 0px 10px;
+}
+
+a{
+	color: rgb(115, 45, 70);
+}
+
+#nezet1 img:hover{
+	border: solid rosybrown 5px;
+	border-radius: 8px;
+}
+
+#nezet2 img:hover{
+	border: solid rosybrown 5px;
+	border-radius: 8px;
+}
+
+#nezet3 img:hover{
+	border: solid rosybrown 5px;
+	border-radius: 8px;
+}
